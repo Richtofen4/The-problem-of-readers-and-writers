@@ -8,7 +8,7 @@ Please follow the instructions on the download page to configure SFML for your o
 
 # The writing process presented as a list of steps:
 The operation of Writer processes can be described as follows:
-## Write_Function() { 
+## Write_Function()  
 1 If there are Readers or another Writer in the Reading Room: 
 The Writer_Thread changes its state to waiting. 
 
@@ -26,12 +26,10 @@ If a Writer is waiting for access:
 
 The Writer process gains access to the Reading Room. 
 
-} 
-
 # The reading process presented as a list of steps: 
 
 The operation of Reader processes can be described as follows: 
-## Read_Function() { 
+## Read_Function() 
 1 If a Writer is in the Reading Room or a Writer is waiting to enter: The Reader_Thread changes its state to waiting. 
 
 2 The Reader_Thread enters the Reading Room and reads. 
@@ -41,8 +39,6 @@ The operation of Reader processes can be described as follows:
 4 If the Reading Room is empty and a Writer is waiting for access: 
 
 Access to the Reading Room is granted to one waiting Writer. 
-
-}
 
 Program Interface: 
 
