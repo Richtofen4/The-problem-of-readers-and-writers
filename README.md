@@ -37,4 +37,5 @@ Then, information about the number of:
 •	Writers waiting for access,
 •	Readers waiting for access. 
 The data will be updated over time.
-![program photo](Program.png)
+
+![program photo](images/Program.png)
