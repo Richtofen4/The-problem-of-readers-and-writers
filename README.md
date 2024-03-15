@@ -1,5 +1,5 @@
 # The problem of readers and writers
-### SFML Library
+# SFML Library
 To run this project, you need to download the SFML library and include it in your development environment. The library can be downloaded from the official SFML website:
 
 [SFML Download Page](https://www.sfml-dev.org/download.php)
@@ -40,7 +40,7 @@ The operation of Reader processes can be described as follows:
 
 Access to the Reading Room is granted to one waiting Writer. 
 
-Program Interface: 
+# Program Interface: 
 
 The program was created in C++. After starting the program, the user enters in the console the number of Writers and Readers demanding access to the Reading Room.
 Then, information about the number of:
